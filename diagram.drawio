@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="Zl-JOsA-Z1bzyySc1XnP">
+    <mxGraphModel dx="2191" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8VgjsL-VHkc_QYjVE3Ht-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-2" value="postion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8VgjsL-VHkc_QYjVE3Ht-1">
+          <mxGeometry x="-0.436" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8VgjsL-VHkc_QYjVE3Ht-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-4" value="shape" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8VgjsL-VHkc_QYjVE3Ht-3">
+          <mxGeometry x="-0.2493" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-5" value="moveit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="150" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-6" value="rviz2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-30" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-7" value="Node: object detection" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-30" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="24.5" as="targetPoint" />
+            <mxPoint x="-90" y="24.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-9" value="Pointcloud" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8VgjsL-VHkc_QYjVE3Ht-8">
+          <mxGeometry x="-0.436" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.021;entryY=0.618;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8VgjsL-VHkc_QYjVE3Ht-7" target="8VgjsL-VHkc_QYjVE3Ht-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="35" as="targetPoint" />
+            <mxPoint x="360" y="34.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="35" />
+              <mxPoint x="523" y="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-11" value="/octomap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8VgjsL-VHkc_QYjVE3Ht-10">
+          <mxGeometry x="-0.436" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-12" value="Dynamic Object position, shape; Only show current frame" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-13" value="Moveit can understand Octomap infomration?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8VgjsL-VHkc_QYjVE3Ht-15" target="8VgjsL-VHkc_QYjVE3Ht-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-15" value="Mock Node" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8VgjsL-VHkc_QYjVE3Ht-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="40" as="targetPoint" />
+            <mxPoint x="290" y="125" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="290" y="155" />
+              <mxPoint x="290" y="90" />
+              <mxPoint x="310" y="90" />
+              <mxPoint x="310" y="100" />
+              <mxPoint x="430" y="100" />
+              <mxPoint x="430" y="103" />
+              <mxPoint x="520" y="103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VgjsL-VHkc_QYjVE3Ht-17" value="/octomap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8VgjsL-VHkc_QYjVE3Ht-16">
+          <mxGeometry x="-0.436" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
